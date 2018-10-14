@@ -1,0 +1,60 @@
+.container___2Ql56 {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  height: 300px;
+}
+
+.avatar___WAz-J {
+  width: 80px;
+  border-radius: 40px;
+}
+.links___2poIB {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.links___2poIB > li {
+  -webkit-box-flex: 0;
+  flex: 0 0 60px;
+}
+
+.links___2poIB > li > a {
+  color: #666;
+  text-decoration: none;
+}
+
+.links___2poIB > li > a > svg {
+  font-size: 2rem;
+  display: block;
+  margin: 0 auto;
+}
+* {
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto;
+}
+
+a {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+ul, li, ol {
+  list-style: none;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
