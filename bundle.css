@@ -1,3 +1,15 @@
+.picture___34zt3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 1000px;
+  background: url(/images/picture.jpg) center no-repeat;
+  -webkit-filter: grayscale(75%) blur(3px);
+  filter: grayscale(75%) blur(3px);
+  z-index: -1;
+}
 .container___2Ql56 {
   display: -webkit-box;
   display: flex;
@@ -8,12 +20,16 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   flex-direction: column;
-  height: 300px;
+  height: 400px;
 }
 
 .avatar___WAz-J {
-  width: 80px;
-  border-radius: 40px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+.name___25b7p {
+  font-size: 2.4rem;
 }
 .links___2poIB {
   display: -webkit-box;
@@ -22,6 +38,7 @@
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
+  min-height: 400px;
 }
 
 .links___2poIB > li {
@@ -30,7 +47,7 @@
 }
 
 .links___2poIB > li > a {
-  color: #666;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -57,4 +74,5 @@ ul, li, ol {
 
 body {
   margin: 0;
+  color: #fff;
 }
